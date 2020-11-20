@@ -1,10 +1,7 @@
 #include <iostream>
-#include <string>
-
-int main(int argc, char const *argv[])
+using namespace std;
+int main()
 {
-    std::string str;
-    std::cin >> str;
-    std::cout << "Echo: " << str << std::endl;
+    cout << "Hello, world!" << endl;
     return 0;
 }
